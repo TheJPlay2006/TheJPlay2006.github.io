@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad – rclone-gdrive</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; }
+  h1, h2 { line-height: 1.25; }
+  hr { margin: 2rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Política de privacidad</h1>
+<p><strong>rclone-gdrive</strong> · Última actualización: 20 de septiembre de 2026</p>
+
+<p>
+  <strong>rclone-gdrive</strong> es una aplicación de uso personal que mantiene sincronizada una
+  carpeta de mi ordenador con mi propio Google Drive mediante la herramienta de código abierto
+  <a href="https://rclone.org">rclone</a>. Está pensada para su propietario y para las pocas
+  personas que él mismo autorice como usuarios de prueba.
+</p>
+
+<h2>Qué datos se usan</h2>
+<ul>
+  <li>Al iniciar sesión con Google, la app solicita acceso a Google Drive (alcance <code>drive</code>) para leer, crear, modificar y borrar archivos en la cuenta de quien la autoriza.</li>
+  <li>Se guarda un token de acceso y de actualización de OAuth para no tener que volver a iniciar sesión en cada sincronización.</li>
+</ul>
+
+<h2>Dónde se guardan</h2>
+<p>
+  Los archivos se copian entre Google Drive y el ordenador de la persona que autorizó la app. El token
+  se guarda únicamente en el archivo de configuración local de rclone de ese ordenador.
+  No existe ningún servidor propio de esta aplicación: no se envían ni se almacenan datos en
+  servidores del desarrollador.
+</p>
+
+<h2>Con quién se comparten</h2>
+<p>
+  Con nadie. Los datos de Google Drive no se venden, no se ceden a terceros, no se usan para publicidad
+  ni para entrenar modelos de inteligencia artificial, y ninguna persona los lee salvo el propio titular de la cuenta.
+</p>
+
+<h2>Uso limitado de datos de Google</h2>
+<p>
+  El uso y la transferencia a cualquier otra app de la información recibida de las APIs de Google
+  cumplirán la
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de las APIs de Google</a>,
+  incluidos los requisitos de uso limitado.
+</p>
+
+<h2>Cómo revocar el acceso</h2>
+<p>
+  Puedes retirar el acceso en cualquier momento desde
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+  y borrar el token local ejecutando <code>rclone config delete gdrive</code>.
+  Los archivos ya sincronizados permanecen en tu ordenador y en tu Drive hasta que tú los elimines.
+</p>
+
+<h2>Contacto</h2>
+<p>Para cualquier duda sobre esta política: <a href="mailto:jh599350@gmail.com">jh599350@gmail.com</a>.</p>
+
+<hr>
+
+<h1 lang="en">Privacy Policy</h1>
+<p lang="en"><strong>rclone-gdrive</strong> · Last updated: September 20, 2026</p>
+
+<p lang="en">
+  <strong>rclone-gdrive</strong> is a personal-use application that keeps a folder on my computer in sync
+  with my own Google Drive using the open-source tool <a href="https://rclone.org">rclone</a>.
+  It is intended for its owner and for the few people the owner explicitly adds as test users.
+</p>
+
+<h2 lang="en">Data we access</h2>
+<ul lang="en">
+  <li>When you sign in with Google, the app requests access to Google Drive (the <code>drive</code> scope) to read, create, modify and delete files in the account of the person who authorizes it.</li>
+  <li>An OAuth access token and refresh token are stored so you do not have to sign in again on every sync.</li>
+</ul>
+
+<h2 lang="en">Where data is stored</h2>
+<p lang="en">
+  Files are copied between Google Drive and the computer of the person who authorized the app. The token is
+  kept only in the local rclone configuration file on that computer. This application has no server of its own:
+  no data is sent to or stored on any server operated by the developer.
+</p>
+
+<h2 lang="en">Sharing</h2>
+<p lang="en">
+  Google Drive data is never sold, shared with third parties, used for advertising, or used to train AI
+  models, and nobody other than the account holder reads it.
+</p>
+
+<h2 lang="en">Google API Services User Data Policy</h2>
+<p lang="en">
+  rclone-gdrive's use and transfer to any other app of information received from Google APIs will adhere to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+  including the Limited Use requirements.
+</p>
+
+<h2 lang="en">Revoking access</h2>
+<p lang="en">
+  You can revoke access at any time at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+  and delete the local token by running <code>rclone config delete gdrive</code>.
+  Files already synced remain on your computer and in your Drive until you delete them.
+</p>
+
+<h2 lang="en">Contact</h2>
+<p lang="en">Questions about this policy: <a href="mailto:jh599350@gmail.com">jh599350@gmail.com</a>.</p>
+
+</body>
+</html>
